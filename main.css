@@ -1,0 +1,343 @@
+/* This is the main CSS for the application */
+
+/* Reseting */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+p {
+    margin: 0;
+}
+
+/* Styling the index page */
+
+#header-index {
+    padding-top: 200px
+}
+
+
+#title-description-index {
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+}
+
+#main-index {
+    text-align: center;
+}
+
+#main-index div:first-child {
+    margin-top: 80px;
+}
+
+#main-index div:last-child {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+#main-index div:last-child a {
+    padding: 10px 20px;
+    margin: 0 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    text-shadow: 2px 2px black;
+    background-color: black;
+    border-radius: 6px;
+    transition: background-color 0.3s ease-out;
+}
+
+#main-index div:last-child a:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+.footer-index {
+    width: 100%;
+    padding-top: 313px;
+}
+
+.footer-index p {
+    background-color: lightgray;
+    border-top: 1px solid black;
+    padding: 30px 0 30px 100px;
+}
+
+.logout-button-index {
+    color: white;
+    text-shadow: 2px 2px black;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 6px;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+
+.span-todo {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/* Styling the singup page */
+
+#header-singup {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.go-back {
+    padding: 10px 20px;
+}
+
+.go-back a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: lightgray;
+}
+
+#title-description-singup {
+    width: 550px;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px 30px;
+    margin-right: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+}
+
+#main-singup {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-singup {
+    display: flex;
+    width: 500px;
+    margin-top: 10px;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.div-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    padding: 3px;
+}
+
+.div-input-container label {
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.div-form {
+    padding: 15px 0;
+}
+
+.div-form > label {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.input-default {
+    border: 1px solid black;
+    font-size: 25px;
+    border-radius: 6px;
+    padding: 6px;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Error */
+.input-error {
+    border: 1px solid red;
+    font-size: 25px;
+    border-radius: 6px;
+    padding: 6px;
+    transition: box-shadow 0.3s ease;
+}
+
+.input-default:hover {
+    box-shadow: 2px 2px black;
+}
+
+#submit-singup {
+    font-size: 30px;
+    padding: 10px 40px;
+    border-radius: 6px;
+    border: 1px solid black;
+    color: white;
+    transition: background-color 0.3s ease;
+    text-shadow: 2px 2px black;
+    background-color: rgb(85, 85, 85);
+}
+
+#submit-singup:hover {
+    background-color: rgb(116, 115, 115);
+}
+
+.footer-singup {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.footer-singup p {
+    background-color: lightgray;
+    border-top: 1px solid black;
+    padding: 30px 0 30px 100px;
+}
+
+/* Styling the login page */
+
+#header-login {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#main-login {
+    display: flex;
+    padding-top: 160px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-description-login {
+    width: 550px;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px 30px;
+    margin-right: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+}
+
+#form-login {
+    display: flex;
+    width: 500px;
+    margin-top: 10px;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#submit-login {
+    font-size: 30px;
+    padding: 5px 40px;
+    border-radius: 6px;
+    border: 1px solid black;
+    color: white;
+    transition: background-color 0.3s ease;
+    text-shadow: 2px 2px black;
+    background-color: rgb(85, 85, 85);
+}
+
+#submit-login:hover {
+    background-color: rgb(116, 115, 115);
+}
+
+.footer-login {
+    width: 100%;
+    padding-top: 280px;
+}
+
+.footer-login p {
+    background-color: lightgray;
+    border-top: 1px solid black;
+    padding: 30px 0 30px 100px;
+}
+
+/* Styling the dashboard */
+
+#header-dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+
+#logout-dashboard {
+    font-size: 30px;
+}
+
+#main-dashboard {
+    width: 500px;
+    background-color: lightgray;
+    border-radius: 6px;
+    box-shadow: 2px 2px black;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+}
+
+#create-todo {
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#create-todo:hover {
+    background-color: rgb(116, 115, 115);
+}
+
+#name-user p {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 30px;
+}
+
+.footer-dashboard {
+    width: 100%;
+    padding-top: 300px;
+}
+
+.footer-dashboard p {
+    background-color: lightgray;
+    border-top: 1px solid black;
+    padding: 30px 0 30px 100px;
+}
+
+#list {
+    height: 200px;
+}
+
+#todo-form {
+    padding-top: 50px;
+}
+
+#to-do {
+    border: 1px solid black;
+    font-size: 15px;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+#todo-form label {
+    font-size: 18px;
+}

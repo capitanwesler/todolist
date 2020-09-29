@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do List - Dashboard</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="This is the dashboard of the main application" />
+        <link rel="stylesheet" href="./main.css" />
+        <script src="./main.js"></script>
+    </head>
+    <body>
+        <header id="header-dashboard">
+            <h1> Welcome to the <span class="span-todo">To Do List</span> application ! </h1>
+            <a id="logout-dashboard" class="span-todo" href="/login.html">Log Out</a>
+        </header>
+        <div id="name-user"></div>
+        <main id="main-dashboard">
+            <div>
+                <button id="create-todo">Create a To Do List</button>
+                <form id="todo-form">
+                    <label for="to-do">To Do:</label>
+                    <input type="text" id="to-do" placeholder="Enter your To Do" />
+                </form>
+            </div>
+            
+            <div id="list"></div>
+        </main>
+        <footer id="footer-dashboard" class="footer-dashboard">
+            <p>This page was created by <span class="span-todo">@Guillermo Rivas</span></p>
+        </footer>
+    </body>
+</html>
